@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 
+		配置处理器。
+		DispatcherServlet会
+		读取类名，然后利用java反射创建
+		处理器实例。
+	 -->
+	<bean class="demo.HelloController"/>
+	<bean class="demo.LoginController"/>
+	
+	
+</beans>
